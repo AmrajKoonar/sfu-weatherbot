@@ -1,0 +1,9 @@
+tweepy
+requests
+beautifulsoup4
+Pillow
+python-dotenv
+opencv-python
+scikit-image
+# Only needed if ENABLE_AI_JUDGEMENT=true
+openai
