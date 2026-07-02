@@ -1,0 +1,16 @@
+# Secrets
+.env
+keys_test.py
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Downloaded webcam images (do not commit these), but keep the empty folders
+# so the structure exists after cloning.
+data/current_images/*
+data/previous_images/*
+data/debug/*
+!data/current_images/.gitkeep
+!data/previous_images/.gitkeep
+!data/debug/.gitkeep
